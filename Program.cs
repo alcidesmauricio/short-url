@@ -80,5 +80,5 @@ public class ShortUrl
 
 public class UrlDto
 {
-    public string Url { get; set; }
+    public required string Url { get; set; }
 }
